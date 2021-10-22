@@ -14,7 +14,7 @@ Parameters:
   KeyName: 
     Description: Name of an existing EC2 key pair for SSH access to the EC2 instance
     Type: "AWS::EC2::KeyPair::KeyName"
-    Default: "aamirKP1"
+    Default: "lab02californiaprofessional.pem"
   Ec2AmiId:
     Type: String
     Default: "ami-03ab7423a204da002"
